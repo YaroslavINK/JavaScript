@@ -76,7 +76,6 @@
 // console.log(getSum(1, 10));
 // *********************************************************************
 
-//put your code here
 // function increaser(a, index) {
 //   if (a > index) {
 //     return a + index;

@@ -1,4 +1,10 @@
-const user = { name: 'Tirion', email: 'support@hexlet.io', age: 44 };
+/* eslint-disable prefer-object-spread */
+
+const user = {
+  name: 'Tirion',
+  email: 'support@hexlet.io',
+  age: 44,
+};
 
 const copyObj = obj => Object.assign({}, obj);
 

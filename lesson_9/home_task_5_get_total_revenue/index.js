@@ -1,4 +1,5 @@
 const getTotalRevenue = transactions =>
+  // eslint-disable-next-line no-return-assign, no-param-reassign
   transactions.map(el => el.amount).reduce((acc, element) => (acc += element));
 
 // examples

@@ -1,7 +1,8 @@
-import getSum, { getSquareArray, getOddNumbers } from './calculator';
+// eslint-disable-next-line import/named
+import getSum, { getSquaredArray, getOddNumbers } from './calculator';
 
 it('should get aquared numbers', () => {
-  const result = getSquareArray([1, 2, 3]);
+  const result = getSquaredArray([1, 2, 3]);
   expect(result).toEqual([1, 4, 9]);
 });
 

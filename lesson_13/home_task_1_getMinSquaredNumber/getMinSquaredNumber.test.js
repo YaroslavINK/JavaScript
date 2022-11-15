@@ -10,6 +10,14 @@ it('should get result if input empty arr', () => {
   expect(result).toEqual(null);
 });
 
-// it('should get result if input string')
+it('should get result if input string', () => {
+  const result = getMinSquaredNumber('text');
 
-// it('should get result if input arr of numbers')
+  expect(result).toEqual(null);
+});
+
+it('should get min squared number from numbers array', () => {
+  const result = getMinSquaredNumber([-777, 3, -2, 6]);
+
+  expect(result).toEqual(4);
+});

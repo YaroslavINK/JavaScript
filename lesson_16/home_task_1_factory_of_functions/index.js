@@ -9,10 +9,13 @@ const createArrayOfFunctions = num => {
   // if (num && typeof num !== 'number') {
   //   return null;
   // }
-  if (typeof num !== 'number' && num !== undefined) {
+  let resultArr = [];
+  if (typeof num !== 'number') {
     return null;
   }
-  let resultArr = [];
+  if (num === undefined) {
+    return resultArr;
+  }
 
   for (let index = 0; index < num; index += 1) {
     resultArr[index] = function () {
